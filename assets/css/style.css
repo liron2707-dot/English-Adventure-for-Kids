@@ -1,0 +1,15 @@
+/* צבעים לילדים, פונטים גדולים ואנימציות קלות */
+:root{
+  --bg:#0f172a;
+  --card:#0b1220;
+  --accent:#7c3aed;
+  --text:#f8fafc;
+  --muted:#94a3b8;
+}
+body {background: linear-gradient(120deg,#0b1220 0%, #081029 100%); color:var(--text); font-family: "Comic Sans MS", "Trebuchet MS", sans-serif;}
+.stApp {padding: 20px;}
+h1,h2,h3 {color:var(--accent); text-shadow: 0 2px 6px rgba(0,0,0,0.6);}
+.css-1d391kg { /* streamlit main container shadow override */ }
+.card{
+  background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(0,0,0,0.05));
+  border-radius: 12
