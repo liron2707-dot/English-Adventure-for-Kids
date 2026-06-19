@@ -1,0 +1,6 @@
+streamlit>=1.20
+pillow
+gTTS
+pydub
+sqlalchemy
+streamlit-ace
